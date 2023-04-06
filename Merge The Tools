@@ -1,0 +1,18 @@
+def merge_the_tools(string, k):
+    # your code goes here
+    count=0
+    s=''
+    for i in range(string):
+        if not in s:
+            s=s+i
+        count+=1
+        if (k==s):
+            print(s)
+            s=''
+            count=0    
+if __name__ == '__main__':
+    string, k = input(), int(input())
+    merge_the_tools(string, k)
+    
+    
+    #easy
